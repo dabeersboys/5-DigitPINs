@@ -17,4 +17,4 @@ grep -E -v “any|number|that|you|don’t|want|used|” “5digitPIN.txt" > "mod
 
 grep -E -v "2|5|8|0" “5digit.txt" > “modified_5digitPIN.txt"
 
-So the above command will search through all the 8 digit passcodes text file and create a list that isn’t using the digit 2, 5, 8, or 0 and puts it into a new text document called “modified_8digit.txt
+So the above command will search through all the 8 digit passcodes text file and create a list that isn’t using the digit 2, 5, 8, or 0 and puts it into a new text document called “modified_5digit.txt
